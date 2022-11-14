@@ -45,7 +45,7 @@ router.post('/', function (req, res, next) {
 						});
 
 					}).sort({ _id: -1 }).limit(1);
-					res.send({ "Success": "You are regestered,You can login now." });
+					res.send({ "Success": "You are regestered. You can login now." });
 				} else {
 					res.send({ "Success": "Email is already used." });
 				}
